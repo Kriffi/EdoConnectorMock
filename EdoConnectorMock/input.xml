@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomERP_Export>
+	<OrderNumber>998877-B</OrderNumber>
+	<CreationDate>15.09.2026</CreationDate>
+	<Sender>
+		<Name>ООО Ромашка</Name>
+		<TaxID>7701234567</TaxID>
+		<KPP>770101001</KPP>
+	</Sender>
+	<Cargo>
+		<Description>Серверное оборудование</Description>
+		<WeightKG>450</WeightKG>
+	</Cargo>
+</CustomERP_Export>

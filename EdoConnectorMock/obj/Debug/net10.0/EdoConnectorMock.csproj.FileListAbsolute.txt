@@ -1,0 +1,17 @@
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\bin\Debug\net10.0\EdoConnectorMock.exe
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\bin\Debug\net10.0\EdoConnectorMock.deps.json
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\bin\Debug\net10.0\EdoConnectorMock.runtimeconfig.json
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\bin\Debug\net10.0\EdoConnectorMock.dll
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\bin\Debug\net10.0\EdoConnectorMock.pdb
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConnectorMock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConnectorMock.AssemblyInfoInputs.cache
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConnectorMock.AssemblyInfo.cs
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConnectorMock.csproj.CoreCompileInputs.cache
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConnectorMock.dll
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\refint\EdoConnectorMock.dll
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConnectorMock.pdb
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConnectorMock.genruntimeconfig.cache
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\ref\EdoConnectorMock.dll
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\obj\Debug\net10.0\EdoConne.8B829E02.Up2Date
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\bin\Debug\net10.0\input.xml
+C:\Users\epods\source\repos\EdoConnectorMock\EdoConnectorMock\bin\Debug\net10.0\transform.xslt
