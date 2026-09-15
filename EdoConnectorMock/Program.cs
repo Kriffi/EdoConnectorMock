@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Xml.Xsl;
+using System.Text.RegularExpressions;
 
 namespace EdoConnectorMock
 {
@@ -29,6 +30,25 @@ namespace EdoConnectorMock
 
                 Console.WriteLine("Трансформация загружена успешно.");
                 Console.WriteLine("Чтение данных ERP клиента...");
+                // --- БЛОК ВАЛИДАЦИИ REGEX ---
+                string inputData = File.ReadAllText(inputXmlPath);
+
+                // Ищем тег TaxID и захватываем то, что внутри него
+                Match match = Regex.Match(inputData, @"<TaxID>(.*?)</TaxID>");
+                if (match.Success)
+                {
+                    string inn = match.Groups[1].Value;
+                    // Регулярное выражение: строго 10 или 12 цифр (стандарт ИНН в РФ)
+                    if (Regex.IsMatch(inn, @"^(\d{10}|\d{12})$"))
+                    {
+                        Console.WriteLine($"[Regex] ИНН {inn} валиден.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"[Regex Ошибка] ИНН '{inn}' имеет неверный формат!");
+                    }
+                }
+                // -----------------------------
 
                 // Выполняем преобразование
                 transform.Transform(inputXmlPath, outputXmlPath);
